@@ -108,13 +108,25 @@ header .column-50 {
  /*-------------------
     MAIN
 -------------------*/
-.hero {
+/* .hero {
     height: 740px;
-}
+} */
 .hero h1 {
     font-size: 48px;
     padding-top: 100px;
     text-align: center;
+}
+.container-big .row {
+    margin-bottom: -60px;
+}
+.column-35 button {
+    font-size: 16px;
+    margin: 33px 0;
+    padding: 14px;
+}
+.column-35 i {
+    margin-top: 80px;
+    font-size: 40px;
 }
 .column-65 img {
     width: 100%;

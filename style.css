@@ -25,21 +25,48 @@ body {
 .column-10 {
     width: 10%;
 }
+.column-25 {
+    width: 25%;
+}
+.column-50 {
+    width: 50%;
+}
 
+/*-------------------
+    BUTTONS
+-------------------*/
+.btn {
+    background-color: transparent;
+    padding: 4px;
+    border: none;
+}
+.btn-blue {
+    background-color: #0061ff;
+    color: #fff;
+}
+header .btn {
+    height: 34px;
+    width: 60px;
+    margin: 20px;
+}
 /*-------------------
     HEADER
 -------------------*/
-.header {
+header {
     position: sticky;
     height: 80px;
 }
-.column-10 img {
-    padding: 24px;
+header .row {
+    justify-content: space-between;
+}
+header .column-50 {
+    display: flex;
+    align-items: center;
 }
 .header-nav ul {
     display: flex;
     list-style: none;
-    padding-top: 24px;
+    padding-top: 28px;
 }
 .header-nav li {
     padding: 0 20px;
@@ -48,3 +75,12 @@ body {
     text-decoration: none;
     color: #000;
 }
+ .column-50 img {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 30px;
+    width: 127px;
+ }
+ .right {
+    justify-content: flex-end;
+ }

@@ -148,3 +148,16 @@ header .column-50 {
 label {
     margin-right: 40px;
 }
+.businness-type .column-33 {
+    border: 1px solid #d0d0d3;
+}
+.column-header {
+    border: 1px solid #d0d0d3;
+    display: flex;
+    justify-content: center;
+}
+.column-33 h4 {
+    margin-top: 40px;
+    margin-bottom: 28px;
+    font-size: 22px;
+}

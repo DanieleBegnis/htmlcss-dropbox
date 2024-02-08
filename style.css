@@ -12,4 +12,39 @@
 -------------------*/
 body {
     font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
+}
+
+/*-------------------
+    GRID
+-------------------*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.column-10 {
+    width: 10%;
+}
+
+/*-------------------
+    HEADER
+-------------------*/
+.header {
+    position: sticky;
+    height: 80px;
+}
+.column-10 img {
+    padding: 24px;
+}
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    padding-top: 24px;
+}
+.header-nav li {
+    padding: 0 20px;
+}
+.header-nav li a {
+    text-decoration: none;
+    color: #000;
 }

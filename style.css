@@ -150,11 +150,12 @@ label {
 }
 .businness-type .column-33 {
     border: 1px solid #d0d0d3;
+    padding: 0 33px;
 }
 .column-header {
-    border: 1px solid #d0d0d3;
     display: flex;
     justify-content: center;
+    width: 100%;
 }
 .column-33 h4 {
     margin-top: 40px;

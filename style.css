@@ -132,3 +132,16 @@ header .column-50 {
 .column-65 img {
     width: 100%;
 }
+.businness-type {
+    margin-top: 160px;
+}
+.container-small h2 {
+    font-size: 30px;
+}
+.input {
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+label {
+    margin-right: 40px;
+}

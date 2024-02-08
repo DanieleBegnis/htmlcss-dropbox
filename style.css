@@ -111,3 +111,11 @@ header .column-50 {
 .hero {
     height: 740px;
 }
+.hero h1 {
+    font-size: 48px;
+    padding-top: 100px;
+    text-align: center;
+}
+.column-65 img {
+    width: 100%;
+}

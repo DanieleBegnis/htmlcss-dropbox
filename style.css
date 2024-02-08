@@ -28,10 +28,30 @@ body {
 .column-25 {
     width: 25%;
 }
+.column-35 {
+    width: 35%;
+}
 .column-50 {
     width: 50%;
 }
+.column-65 {
+    width: 65%;
+}
+/*-------------------
+    UTILITIES
+-------------------*/
 
+.container-big {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.container-small {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.blue {
+    background-color: #b4d0e7;
+}
 /*-------------------
     BUTTONS
 -------------------*/
@@ -84,3 +104,10 @@ header .column-50 {
  .right {
     justify-content: flex-end;
  }
+
+ /*-------------------
+    MAIN
+-------------------*/
+.hero {
+    height: 740px;
+}

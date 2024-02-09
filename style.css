@@ -174,5 +174,17 @@ label {
     content: "\f07b";
 }
 .column button {
-   
+   display: flex;
+   justify-content: center;
+   width: 100%;
+}
+.column li {
+    margin-top: 20px;
+}
+.column hr {
+    margin: 36px 0;
+    width: 20%;
+}
+.fa-check {
+    color: #0061ff;
 }

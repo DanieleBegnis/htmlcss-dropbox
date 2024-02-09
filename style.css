@@ -197,3 +197,6 @@ label {
 .fa-check {
     color: #0061ff;
 }
+.body-column-large {
+    display: flex;
+}

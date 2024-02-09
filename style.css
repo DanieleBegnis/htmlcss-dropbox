@@ -120,7 +120,7 @@ header .column-50 {
     position: relative;
     bottom: -60px;
 }
-.column-35 button {
+.column-35 button, .column button{
     font-size: 16px;
     margin: 33px 0;
     padding: 14px;
@@ -174,4 +174,7 @@ label {
 }
 .storage {
     content: "\f07b";
+}
+.column button {
+   
 }

@@ -29,7 +29,7 @@ body {
     width: 25%;
 }
 .column-33 {
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 40px);
 }
 .column-35 {
     width: 35%;
@@ -132,6 +132,12 @@ header .column-50 {
 .column-65 img {
     width: 100%;
 }
+.container-small .row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
 .businness-type {
     margin-top: 100px;
 }

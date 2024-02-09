@@ -78,6 +78,9 @@ header .btn {
 header {
     position: sticky;
     height: 80px;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
 }
 header .row {
     justify-content: space-between;
@@ -89,7 +92,6 @@ header .column-50 {
 .header-nav ul {
     display: flex;
     list-style: none;
-    padding-top: 28px;
 }
 .header-nav li {
     padding: 0 20px;
@@ -101,8 +103,6 @@ header .column-50 {
  .column-50 img {
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 30px;
-    width: 127px;
  }
  .right {
     justify-content: flex-end;
@@ -111,17 +111,14 @@ header .column-50 {
  /*-------------------
     MAIN
 -------------------*/
-.hero {
-    height: 660px;
-}
 .hero h1 {
-    font-size: 48px;
+    font-size: 60px;
     padding-top: 100px;
-    text-align: center;
 }
 .container-big .row {
-    margin-bottom: -60px;
     margin-top: 64px;
+    position: relative;
+    bottom: -60px;
 }
 .column-35 button {
     font-size: 16px;
@@ -129,17 +126,17 @@ header .column-50 {
     padding: 14px;
 }
 .column-35 i {
-    margin-top: 80px;
+    margin-top: 90px;
     font-size: 40px;
 }
 .column-65 img {
     width: 100%;
 }
 .businness-type {
-    margin-top: 160px;
+    margin-top: 100px;
 }
 .container-small h2 {
-    font-size: 30px;
+    font-size: 40px;
 }
 .input {
     margin-top: 70px;
@@ -148,14 +145,18 @@ header .column-50 {
 label {
     margin-right: 40px;
 }
-.businness-type .column-33 {
+.card {
     border: 1px solid #d0d0d3;
-    padding: 0 33px;
 }
 .column-header {
     display: flex;
     justify-content: center;
     width: 100%;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 0 15px;
+}
+.column {
+    padding: 0 15px;
 }
 .column-33 h4 {
     margin-top: 40px;

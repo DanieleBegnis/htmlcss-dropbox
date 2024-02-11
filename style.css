@@ -14,7 +14,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
-
+h4 {
+    font-size: 22px;
+}
 /*-------------------
     GRID
 -------------------*/
@@ -34,8 +36,14 @@ body {
 .column-35 {
     width: 35%;
 }
+.column-40 {
+    width: 40%;
+}
 .column-50 {
     width: 50%;
+}
+.column-60 {
+    width: 60%;
 }
 .column-65 {
     width: 65%;
@@ -69,6 +77,10 @@ body {
 .btn-blue {
     background-color: #0061ff;
     color: #fff;
+}
+.btn-white {
+    background-color: #fff;
+    color: #000;
 }
 header .btn {
     height: 34px;
@@ -114,6 +126,7 @@ header .column-50 {
  /*-------------------
     MAIN
 -------------------*/
+/* HERO */
 .hero h1 {
     font-size: 60px;
     padding-top: 100px;
@@ -135,6 +148,8 @@ header .column-50 {
 .column-65 img {
     width: 100%;
 }
+/* HERO */
+/* BUSINNESS */
 .container-small .row {
     display: flex;
     justify-content: space-between;
@@ -197,6 +212,51 @@ label {
 .fa-check {
     color: #0061ff;
 }
+.column-100 {
+    margin-top: 24px;
+}
 .body-column-large {
     display: flex;
+}
+.body-column-large .column-65 {
+    margin-left: 12px;
+}
+.column-65 h4 {
+    font-size: 22px;
+    margin-top: 22px;
+}
+.column-65 .bold {
+    margin-top: 22px;
+}
+.column-65 p {
+    margin-top: 40px;
+    margin-bottom: 12px;
+}
+.body-column-large .column-35 {
+    justify-content: flex-end;
+    display: flex;
+}
+.column-35 button {
+    margin-top: 22px;
+    margin-right: 12px;
+}
+/* BUSINNESS */
+/* PARTNER */
+.dropbox-partner {
+    margin: 80px 0;
+}
+.dropbox-partner .column-60 img {
+    width: 100%;
+}
+.dropbox-partner .column-35 {
+    margin-top: 30px;
+}
+.column-35 .btn-white {
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+}
+.dropbox-partner p {
+    margin-top: 18px;
 }

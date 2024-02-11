@@ -14,6 +14,9 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #fff;
 }
+h2 {
+    font-size: 40px;
+}
 h4 {
     font-size: 22px;
 }
@@ -159,9 +162,6 @@ header .column-50 {
 .businness-type {
     margin-top: 100px;
 }
-.container-small h2 {
-    font-size: 40px;
-}
 .input {
     margin-top: 70px;
     margin-bottom: 50px;
@@ -259,4 +259,15 @@ label {
 }
 .dropbox-partner p {
     margin-top: 18px;
+}
+/* PARTNER */
+/* BUSINNESS */
+.dropbox-businness {
+    margin-top: 80px;
+}
+.dropbox-businness h2 {
+    margin-bottom: 40px;
+}
+.column-33 img {
+    width: 100%;
 }

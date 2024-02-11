@@ -285,6 +285,10 @@ label {
 .free-trial {
     background-color: #b4d0e7;
 }
+.free-trial .container-small .row {
+    align-items: center;
+    padding: 60px 0;
+}
 .free-trial h2 {
     color: #61082b;
 }

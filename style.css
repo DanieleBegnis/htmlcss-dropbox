@@ -306,11 +306,32 @@ label {
 }
 /* FREE TRIAL */
 /* FAQ */
+.faq {
+    margin-bottom: 100px;
+}
+.faq h2 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
 .faq .row {
     justify-content: space-between;
     border-top: 1px solid #999999;
+    padding: 24px 0;
 }
 .faq .row:last-child {
     border-bottom: 1px solid #999999;
 }
+.faq .column-20 {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
 /* FAQ */
+
+ /*-------------------
+    FOOTER
+-------------------*/
+footer {
+    background-color: #000;
+    color: #fff;
+}

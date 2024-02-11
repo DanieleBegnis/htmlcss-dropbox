@@ -156,7 +156,6 @@ header .column-50 {
 .container-small .row {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
 }
 
 .businness-type {
@@ -282,3 +281,14 @@ label {
     margin-bottom: 40px;
 }
 /* AD */
+/* FREE TRIAL */
+.free-trial {
+    background-color: #b4d0e7;
+}
+.free-trial h2 {
+    color: #61082b;
+}
+.free-trial button {
+    padding: 8px 20px;
+}
+/* FREE TRIAL */

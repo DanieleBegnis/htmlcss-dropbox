@@ -310,4 +310,7 @@ label {
     justify-content: space-between;
     border-top: 1px solid #999999;
 }
+.faq .row:last-child {
+    border-bottom: 1px solid #999999;
+}
 /* FAQ */

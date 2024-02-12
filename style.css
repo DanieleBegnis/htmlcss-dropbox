@@ -84,6 +84,9 @@ h4 {
 .lightgreen {
     background-color: #a2d39b;
 }
+.green-border {
+    border: 8px solid #d1e9cd;
+}
 .burgundy {
     background-color: #61082b;
 }
@@ -310,8 +313,13 @@ label {
 .designit {
     display: flex;
 }
-.designit img {
+.small-square img {
     filter: invert(1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50%, -50%);
 }
 .big-square {
     width: calc(100% / 3);
@@ -323,6 +331,7 @@ label {
 .small-square {
     height: 50%;
     width: 50%;
+    position: relative;
 }
 /* DESIGNIT */
 /* FREE TRIAL */

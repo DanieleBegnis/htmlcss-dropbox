@@ -179,6 +179,7 @@ label {
 }
 .card {
     border: 1px solid #d0d0d3;
+    height: 100%;
 }
 .column-header {
     display: flex;

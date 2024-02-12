@@ -96,6 +96,16 @@ h4 {
 .red-orange {
     background-color: #ff1c1c;
 }
+.vivid-red {
+    background-color: #d5001f;
+}
+.deep-blue {
+    background-color: #0d2481;
+}
+.yellow {
+    background-color: #ffd830;
+}
+
 /*-------------------
     BUTTONS
 -------------------*/
@@ -327,6 +337,7 @@ label {
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
+    background-color: #f5f5f5;
 }
 .small-square {
     height: 50%;

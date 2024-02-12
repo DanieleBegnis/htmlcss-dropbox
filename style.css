@@ -294,6 +294,24 @@ label {
     margin-bottom: 40px;
 }
 /* AD */
+/* DESIGNIT */
+.designit {
+    display: flex;
+}
+.big-square {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: aliceblue;
+}
+.small-square {
+    height: 50%;
+    width: 50%;
+    background-color: #0061ff;
+}
+/* DESIGNIT */
 /* FREE TRIAL */
 .free-trial {
     background-color: #b4d0e7;

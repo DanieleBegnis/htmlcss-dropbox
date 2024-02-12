@@ -81,6 +81,18 @@ h4 {
 .blue {
     background-color: #b4d0e7;
 }
+.lightgreen {
+    background-color: #a2d39b;
+}
+.burgundy {
+    background-color: #61082b;
+}
+.sky-blue {
+    background-color: #0093ce;
+}
+.red-orange {
+    background-color: #ff1c1c;
+}
 /*-------------------
     BUTTONS
 -------------------*/
@@ -297,6 +309,9 @@ label {
 /* DESIGNIT */
 .designit {
     display: flex;
+}
+.designit img {
+    filter: invert(1);
 }
 .big-square {
     width: calc(100% / 3);

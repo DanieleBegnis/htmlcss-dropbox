@@ -336,3 +336,10 @@ footer {
     background-color: #000;
     color: #fff;
 }
+footer ul {
+    list-style: none;
+}
+footer li a {
+    text-decoration: none;
+    color: #fff;
+}
